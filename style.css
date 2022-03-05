@@ -1,0 +1,96 @@
+body {
+
+}
+
+/*//////////////////////
+Header
+//////////////////////*/
+
+header, ul, section {
+    display: flex;
+    background: rgba(102,118,138,1);
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+ul {
+    gap: 20px;
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.button-38 {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: rgba(102,118,138,1);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 40px;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+/*//////////////////////
+Main Section
+//////////////////////*/
+
+section {
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    color: white;
+    padding-top: 30px;
+}
+
+section h1 {
+    font-size: 5em;
+    width: 80%;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.5em;
+    width: 80%;
+    text-align: center;
+}
+
+.videoDiv {
+    display: flex;
+    flex-direction: row;
+}
