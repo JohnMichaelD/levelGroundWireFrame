@@ -210,3 +210,78 @@ section.volunteer ul {
     margin-top: 40px;
     background-color: white;
 }
+
+/*//////////////////////
+Footer Section 
+//////////////////////*/
+
+footer {
+    height: 275px;
+    color: white;
+}
+
+footer,
+footer section {
+    background-color: rgba(22,31,43,1);
+}
+
+footer section.container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.leftFooterNav,
+.leftFooterNav section,
+.rightFooterContact,
+.rightFooterContact section {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.socialLogos{
+    margin: 25px 0px 0px 30px;
+}
+
+.footerNav h4,
+.footerNav ul {
+    margin: 10px 20px 0px 40px;
+}
+
+.footerNav h4 {
+    color: rgba(102,118,138,1);
+}
+
+.footerNav ul {
+    background-color: rgba(22,31,43,1);
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.rightFooterContact {
+    margin: 25px 0px;
+}
+
+.rightFooterContact h4,
+.rightFooterContact p {
+    margin: 10px 0px 0px 40px;
+}
+
+.rightFooterContact p {
+    font-weight: 200;
+}
+
+.taxContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taxContainer p {
+    margin-left: 40px;
+}
+
+.taxContainer img {
+    margin-right: 40px;
+}
