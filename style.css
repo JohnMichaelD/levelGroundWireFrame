@@ -351,20 +351,27 @@ Media Queries
     .rightFooterContact section {
         align-items: center;
         font-size: 1.4rem;
-}
+    }
+
+    .footerNav h4,
+    .footerNav nav ul {
+    margin: 0rem;
+    padding: .5rem 0rem;
+    }
 
     .rightFooterContact {
-        margin: 0;
+        margin: 4rem 0rem;
         text-align: center;
     }
 
     .rightFooterContact h4,
     .rightFooterContact p {
-        margin: 10px 0px 0px 40px;
+        margin: 10px 0rem 0rem 0rem;
     }
 
     .socialLogos {
         width: 50%;
+        margin: 3rem 0rem;
     }
 
     ul li a {
